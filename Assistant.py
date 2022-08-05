@@ -60,7 +60,7 @@ def sendEmail(to, content):
     
     server.ehlo()
     server.starttls()
-    server.login('18kumarshivam@gmail.com', 'baleshwar')
+    server.login('18kumarshivam@gmail.com', '**********')
     server.sendmail('18kumarshivam@gmail.com', to, content)
     server.quit()
 
